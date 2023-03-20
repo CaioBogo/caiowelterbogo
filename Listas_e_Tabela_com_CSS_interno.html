@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Tabela com CSS interno</title>
+    <style>
+        body{
+            background-color: skyblue; /*posso colocar cor de fundo assim ou */
+            
+            /*Posso colocar cor de fundo com imagem(cor gradiente)*/
+            /* to bottom --> */
+            background-image: linear-gradient(to bottom, yellow, red);
+
+            /*Posso colocar cor com imagem*/
+            background-image: url(https://th.bing.com/th/id/OIP.C7H0xFyMxFTl2eIZnqhS_AHaEo?w=286&h=180&c=7&r=0&o=5&pid=1.7);
+            
+            /*Posso colcar cor com imagem salva na pasta*/
+            background-image:imagem_abstrata.jpg;
+            
+            padding: 20px 20px 50px 50px;
+            /*Padding = Com quatro valores a ordem de aplicação é: superior, direita, inferior,esquerda*/
+
+            margin:auto;
+            /* Definindo a área da margem nos quatro lados*/
+        }
+        h1{
+            color: coral;
+            font-size: 250%;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h2{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: rgb(10, 17, 58);">Lista não-ordenada</h1>
+<hr>
+    <ul>
+        <li>Desktop</li>
+        <li>Notebook</li>
+        <li>Netbook</li>
+        <li>Tablet</li>
+    </ul>
+<h1 style="color: rgb(247, 156, 96);">Lista ordenada</h1>
+<hr>
+    <ol>
+        <li>Desktop</li>
+        <li>Notebook</li>
+        <li>Netbook</li>
+        <li>Tablet</li>
+    </ol>
+<hr>
+<h1 style="color: rgb(173, 236, 131);">Tabela</h1>
+    <table border="1">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Profissão</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Roger</td>
+            <td>23</td>
+            <td>Designer</td>
+        </tr>
+    </table>
+    <!--Exercicio TABELA-->
+
+    <h1 style="color: hsl(203, 27%, 70%);">Exercicio de Tabela 16/03</h1>
+
+    <Table border="5">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Sexo</td>
+            <td>Profissão</td>
+            <td>Periodo</td>
+        </tr>
+        <tr>
+            <td>Caio</td>
+            <td>16</td>
+            <td>Maculino</td>
+            <td>Programador</td>
+            <td>Matutino</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>16</td>
+            <td>Masculino</td>
+            <td>Programador</td>
+            <td>Matutino</td>
+        </tr>
+        <tr>
+            <td>Alexandre</td>
+            <td>16</td>
+            <td>Masculino</td>
+            <td>Programador</td>
+            <td>Matutino</td>
+        </tr>
+    </Table>
+</body>
+</html>
