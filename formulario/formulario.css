@@ -48,6 +48,17 @@ legend{
     transition: ;
 }
 
+/*Quando clicar no input eu quero que a label vai para cima do input -  por isso a ação é input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput {/*quando o input tiver válido, eu quero que ele execute essa ação para a 
+label - a informação irá permanecer no input, senão irá ficar por cima*/
+    top: -20px;
+    font-size: 20px;
+    color: rgb(170, 147, 253);
+
+}
+
 #data_nascimento{
     border: none;
     padding: 8px;
