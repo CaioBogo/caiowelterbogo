@@ -48,3 +48,27 @@ legend{
     transition: ;
 }
 
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#enviar{
+    background-image: linear-gradient(to right, rgb(150, 248, 248), rgb(174, 174, 242), rgb(98, 62, 241));
+    width: 100%;
+    border: none; /tirar borda do botão Enviar/
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer; /qnd passar o mouse por cima do botão enviar, muda o cursor/
+    border-radius: 10px;
+}
+
+#enviar:hover{
+    background-image: linear-gradient(to right, rgb(150, 248, 248), rgb(174, 174, 242), rgb(98, 62, 241));
+    /qnd passar o mouse a cor aparecerá um pouco mais escura/
+}
+
