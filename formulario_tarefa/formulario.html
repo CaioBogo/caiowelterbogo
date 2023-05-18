@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<html lang="pt-br">
+<cabeça>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS externo - Formulário - 13, 17, 24/04</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header><img src="Google.png" alt="GOOGLE"></header>
+
+    <main><!-- meio --> 
+        <section class="box">
+            <form>
+                <fieldset>
+                    <legend><strong>Formulario de Cliente</strong></legend>
+                    <Br>
+                    <section class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="name" class="labelinput">Nome completo</label >
+                    </section>
+                    <Br>
+                    <section class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelinput">Email</label >
+                    </section>
+                    <Br>
+                    <section class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelinput">Telefone</label >
+                    </section>
+                    
+                    <p>Sexo:</p>
+
+                    <input type="radio" name="genero" id="feminino" value="feminino" required>
+                    <label for="feminino">Feminino</label >
+                    <Br>
+                    <input type="radio" name="genero" id="masculino" value="masculino" required>
+                    <label for="masculino">Masculino</label >
+                    <Br>
+                    <input type="radio" name="genero" id="outro" value="outro" required>
+                    <label for="outro">Outro</label >
+                    <br><br>
+                    <label for="data_nascimento"><strong>Ano de nascimento</strong></label >
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                    <br><br><br>
+
+                    <section class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade">Cidade</label >
+                    </section>
+                    <br><br>
+                    <section class="inputBox">
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                        <label for="estado">Estado</label >
+                    </section>
+                    <br><br>
+                    <section class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" class="labelinput">Endereco</label >
+                    </section>
+
+                    <br><br>
+                    <input type="submit" value="Enviar Formulario" id="enviar">
+                </fieldset>
+            </form>
+        </section>
+    </principal>
+
+    <rodapé><!-- rodapé--></rodapé>
+</body>
+</html>

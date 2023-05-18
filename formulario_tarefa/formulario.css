@@ -1,0 +1,84 @@
+body{
+    background-image:linear-gradient(to right,#79AD44,#BAFA7A,#CBFF96);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:  #9f32ad83;
+    padding: 15px;
+    border-radius: 10px;
+    width: 32%;
+}
+
+fieldset{
+    border: 3px solid #5f8a35b7;
+    border-radius: 7px;
+}
+legend{
+    border: 2px solid #5b1e63;
+    padding: 6px;
+    text-align: center;
+    background-color: #9F32AD;
+    border-radius: 7px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 70%;
+    letter-spacing: 1px;
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 4px;
+}
+
+/*Quando clicar no input eu quero que a label vai para cima do input -  por isso a ação é input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput {/*quando o input tiver válido, eu quero que ele execute essa ação para a 
+label - a informação irá permanecer no input, senão irá ficar por cima*/
+    top: -20px;
+    font-size: 20px;
+    color: rgb(170, 147, 253);
+
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#enviar{
+    background-image: linear-gradient(to right,#79AD44,#BAFA7A);
+    width: 100%;
+    border: none; 
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#enviar:hover{
+    background-image: linear-gradient(to right,#2F3B7B,#655A88);
+}
+
