@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+header{
+    background: #8dc4f5;
+    padding: 20px;
+    border: 2px solid #4da3ee;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #1e5e96;
+}
+
+#logo{
+    border-radius: 2px;
+}
+.titulo-principal{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+    top: 30%;
+    left: 13%;
+    transform: translate(-10%, -50%);
+} 
+main{
+    width: 940px;
+    margin: auto;
+} 
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    
+} 
